@@ -1,0 +1,10 @@
+Bella Lu xlu62
+
+I didn't write any functions that wasn't given to me already, because it didn't feel necessary to. "read_file" in functions.c
+reads the input file and puts the words into a array of strings. The "match" in functions.c takes the user command (regex) and 
+determines whether the word passed in through the parameter matches the command. test_functions.c contains functions that runs
+tests using the assert function, and there is a "main" to compile all the test functions. In the "main" of hw3.c, other 
+functions are called and different output is printed, including error handelling. 
+
+Something clever I did was for the tilde in the "match" function. My code was concise, using only one for loop and one 
+recursion statement. 

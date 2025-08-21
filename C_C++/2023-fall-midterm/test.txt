@@ -1,0 +1,7 @@
+C 3
+T 1 3 4 6 7 0 8 2 5
+I ingo.ppm
+W ingo_scrambled.ppm ingo_scrambled.txt
+V
+W ingo_solved.ppm ingo_solved.txt
+K

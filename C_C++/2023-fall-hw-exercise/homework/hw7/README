@@ -1,0 +1,5 @@
+Bella Lu xlu62
+
+I added a function called clear(), which deletes all nodes in the current dataloop. The destructor calls this function. I wrote a separate function for it so I can call it in the + operation. I call clear() in the + operatino because it clears any existing nodes before copyping everything from the parameter. Other functions are given and follows by specified rules.
+
+For my splice function, I used the ^ operator to shift start to where the new dataloop needs to be added, then used the ^ operator again to shift it back. 

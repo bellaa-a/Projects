@@ -1,0 +1,15 @@
+Member 1: Jecia (Zi Yun) Mao, zmao16
+Member 2: Bella (Xuan Yu) Lu, xlu62
+
+In this project, we cooperated throughout the process of writing the functions. We usually work on code together instead of dividing them into different sections. In particular, Bella served more as a designer and Jecia served more as an organizer. For instance, Bella figured out the idea for how to slide the blocks around and the limitations in each case (up, down, left, and right). She also introduced the big idea on how to recursively implement them to solve the puzzle. Jecia organized her ideas and wrote handle_S_command and the algorithm for solving puzzles, with helpers functions findDirection and puzzle_move. The same applied for handling other commands. We worked collaboratively according to the strength of each person. 
+
+Two of the most difficult parts of this project is writing the function solve_puzzle and handling the W command. I would explain the general ideas of these two functions. 
+
+Solve puzzle: 
+For this algorithm, our code is using three helpers functions. The findDirection command takes the previous step taken by the block to ensure that the next step would not undo the previous step. For instance, if the program moved up the previous time, it would not test the possible step of moving down. This function would modify the elements in the direction array. 
+
+Then, in solve_puzzle, the code will traverse the direction array to test out the possible cases for the block to move. The code moves the empty block and updates the position of the empty block to the puzzle struct using the function puzzle_move. We also set limitations for the block’s movement within each case to make sure that it is not out of bound. The function checks whether the puzzle is in the correct order using the function is_solved. If the implementation is unsuccessful, the code to undo the block’s movement and test out other cases. 
+
+handle_W_command: 
+The following link is to a diagram that illustrates the code implementation if we are looking at a 9x9 pixel diagram in a 3x3 puzzle. In this example, we are trying to read the puzzle block with row index 0, and col index 2. 
+https://docs.google.com/document/d/1vmm94llq-hN5PdwOiM-p-POFz75Hox-R56SulF4A_cE/edit?usp=sharing
