@@ -1,0 +1,25 @@
+
+
+Datasets1to5 (combined) + new structure
+
+PlaceOfMyBirth: X=0.379, Y=0.326
+FutureBoyfriend: X=0.448, Y=0.348
+Scrambled: X=0.458, Y=0.438
+Oxygen: X=0.416, Y=0.382
+AnObjectAtRest: X=0.333, Y=0.453
+InnerWorkings: X=0.269, Y=0.337
+BorrowedTime: X=0.131, Y=0.184
+StrayDogs: X=0.501, Y=0.355
+Paperman: X=0.384, Y=0.147
+
+Dataset5 (free viewing) + new structure
+
+PlaceOfMyBirth: X=0.411, Y=0.311
+FutureBoyfriend: X=0.460, Y=0.332
+Scrambled: X=0.419, Y=0.428
+Oxygen: X=0.384, Y=0.372
+AnObjectAtRest: X=0.343, Y=0.441
+InnerWorkings: X=0.181, Y=0.366
+BorrowedTime: X=0.232, Y=0.091
+StrayDogs: X=0.457, Y=0.256
+Paperman: X=0.400, Y=0.135
