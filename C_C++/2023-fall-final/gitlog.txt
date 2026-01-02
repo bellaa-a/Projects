@@ -1,0 +1,203 @@
+commit 09b3fe09487bd0421c84bfd35f0efe1874bb3f1c
+Author: Zi Yun Mao <zmao16@jh.edu>
+Date:   Fri Dec 8 10:08:32 2023 -0500
+
+    final edition, debugged everything
+
+commit 0dfaa77431439d50f7717c16adb728f209235e3c
+Author: Bella Lu <xlu62@jh.edu>
+Date:   Thu Dec 7 19:41:43 2023 -0500
+
+    wrote readme and more comments
+
+commit 0dd4bcbb484bf3342e48eef6a871de9a3243bede
+Author: Bella Lu <xlu62@jh.edu>
+Date:   Wed Dec 6 13:57:50 2023 -0500
+
+    wrote comments for reader and renderer
+
+commit 99f7ab337e298561275e5177cbecb43d1992e5d2
+Author: Bella Lu <xlu62@jh.edu>
+Date:   Wed Dec 6 13:07:45 2023 -0500
+
+    wrote comments for image and main and plot
+
+commit e5fdbb28386148643d02d194f23861ed7d73cc9c
+Author: Bella Lu <xlu62@jh.edu>
+Date:   Wed Dec 6 12:41:42 2023 -0500
+
+    debugged expr_parser so functions with single x, pi, or a literal value works with and without brackets
+
+commit b6453f7b5d4dad695fede3be14681a8b8b137fcd
+Author: Bella Lu <xlu62@jh.edu>
+Date:   Wed Dec 6 12:35:53 2023 -0500
+
+    wrote comments for fill and func
+
+commit 2b590c3d1d68cc588f1a798a2474708f2127f04a
+Author: Bella Lu <xlu62@jh.edu>
+Date:   Wed Dec 6 12:23:43 2023 -0500
+
+    wrote comments for bounds and exprparser
+
+commit c67cc1a7f0b318d833944c39df221be149758342
+Author: Ava Venuti <avenuti1@jh.edu>
+Date:   Tue Dec 5 21:57:57 2023 -0500
+
+    all examples made
+
+commit 66cfa6e8c745c3666aabd94d7d53e38825533b13
+Author: Ava Venuti <avenuti1@jh.edu>
+Date:   Tue Dec 5 21:54:07 2023 -0500
+
+    changed float and floor to calculate; now 6 and 7 working
+
+commit 2124e597c65f7358a4f7b58b6f15c5cdb10cb460
+Author: Zi Yun Mao <zmao16@jh.edu>
+Date:   Mon Dec 4 23:07:42 2023 -0500
+
+    comparing image
+
+commit 7ccb768974a91d95bb685a82c0e988943c22dba1
+Author: Zi Yun Mao <zmao16@jh.edu>
+Date:   Mon Dec 4 22:26:42 2023 -0500
+
+    update
+
+commit f289abb4287e20229c8ce3d02c8ef3a72eb2bd80
+Author: Zi Yun Mao <zmao16@jh.edu>
+Date:   Mon Dec 4 21:03:26 2023 -0500
+
+    handle 0 and invalid expression exception
+
+commit 88f820ab95204895d7d0d3a44dfac6582ed9f97c
+Author: Zi Yun Mao <zmao16@jh.edu>
+Date:   Mon Dec 4 19:39:09 2023 -0500
+
+    color exception working
+
+commit 57b711583dadb98d9e60220a45cfeb44b6792ca7
+Author: Ava Venuti <avenuti1@jh.edu>
+Date:   Mon Dec 4 18:17:13 2023 -0500
+
+    exceptions updated and working without memory leaks. Need to look at reading input at EOF
+
+commit 8c546192eaed28d8629e9116692d032969785fb5
+Author: Zi Yun Mao <zmao16@jh.edu>
+Date:   Mon Dec 4 15:39:30 2023 -0500
+
+    added error handling focusing on the functions
+
+commit ca796d252d129eab22ea12185ab710550794f9e9
+Author: Zi Yun Mao <zmao16@jh.edu>
+Date:   Mon Dec 4 09:36:05 2023 -0500
+
+    all valgrind error and memory leak cleared
+
+commit 8932ca5f4e2cb3c8e46334b0344ff9260ae636c6
+Author: Ava Venuti <avenuti1@jh.edu>
+Date:   Sun Dec 3 19:42:22 2023 -0500
+
+    destructors written; still getting valgrind errors
+
+commit f0dcf1f43dc7327716904a0bcea50866b1eab127
+Author: Zi Yun Mao <zmao16@jh.edu>
+Date:   Sun Dec 3 13:12:45 2023 -0500
+
+    making changes to ensure that all test cases are working
+
+commit ace3d51202a28e3354028e019fd52664c67c5c96
+Author: Zi Yun Mao <zmao16@jh.edu>
+Date:   Sun Dec 3 12:59:18 2023 -0500
+
+    image generated properly
+
+commit d802a363b0719e4d357924f78f6a84b48d834f6c
+Author: Zi Yun Mao <zmao16@jh.edu>
+Date:   Sat Dec 2 17:30:40 2023 -0500
+
+    able to generate image but cannot pass some cases
+
+commit f782518b5052e639530fbe23477c19e1723e3f3c
+Author: Zi Yun Mao <zmao16@jh.edu>
+Date:   Sat Dec 2 13:30:51 2023 -0500
+
+    update render and fill
+
+commit b78685b2b9cfb14d0e1e275fadca235e0d01c70a
+Author: Zi Yun Mao <zmao16@jh.edu>
+Date:   Fri Dec 1 12:52:49 2023 -0500
+
+    image orientation fixed
+
+commit b2dd878b29a2abd045d7a4e4d67863df1fe882a2
+Author: Zi Yun Mao <zmao16@jh.edu>
+Date:   Thu Nov 30 10:58:36 2023 -0500
+
+    generate image successfully
+
+commit a2005b834bf1d310ecde50a5304909c63cc32da8
+Author: Zi Yun Mao <zmao16@jh.edu>
+Date:   Wed Nov 29 15:50:39 2023 -0500
+
+    update main and reader classes
+
+commit 744c93798c8be9193ed20cfa56e429de045a6f5d
+Author: Zi Yun Mao <zmao16@jh.edu>
+Date:   Wed Nov 29 13:07:14 2023 -0500
+
+    calculate working
+
+commit 9af03e96357357b2b5b82f808e8cc2aaf728810d
+Author: Ava Venuti <avenuti1@jh.edu>
+Date:   Tue Nov 28 20:31:21 2023 -0500
+
+    updated image files in progress
+
+commit 88ecf55c5894dbbccecaad69c685f0a45490e5e4
+Author: Zi Yun Mao <zmao16@jh.edu>
+Date:   Tue Nov 28 20:29:47 2023 -0500
+
+    calculate function update completely working
+
+commit 873f933aaacb7573df402518204094731de99d06
+Author: Ava Venuti <avenuti1@jh.edu>
+Date:   Mon Nov 27 13:10:57 2023 -0500
+
+    added plot bounds
+
+commit 7d34ebc499a31fb9740a4fbce84480336694e5dd
+Author: Zi Yun Mao <zmao16@jh.edu>
+Date:   Mon Nov 27 12:55:58 2023 -0500
+
+    add destructor
+
+commit b97cec69a21f35558c5c6dfff6c8963f832159fa
+Author: Ava Venuti <avenuti1@jh.edu>
+Date:   Mon Nov 27 11:49:34 2023 -0500
+
+    reviewed expr and expr_parser classes
+
+commit f49410e54c68cca91064dc66b2d63d8788eef60e
+Author: Zi Yun Mao <zmao16@jh.edu>
+Date:   Fri Nov 24 23:08:05 2023 -0500
+
+    add calculate function
+
+commit d40056228a15f47435a0ee082ff8768309c89f99
+Author: Zi Yun Mao <zmao16@jh.edu>
+Date:   Fri Nov 24 19:36:07 2023 -0500
+
+    creating the tree function working, tested by test.cpp with example.txt
+
+commit 25492ae194176cd5a0b81c2adf79d4e5531a9b0b
+Author: Zi Yun Mao <zmao16@jh.edu>
+Date:   Wed Nov 22 18:59:01 2023 -0500
+
+    parser class
+
+commit 00d240df2a7b7d1f28954678b995d0fb2cd5373e
+Author: Zi Yun Mao <zmao16@jh.edu>
+Date:   Tue Nov 21 22:43:42 2023 -0500
+
+    first commit

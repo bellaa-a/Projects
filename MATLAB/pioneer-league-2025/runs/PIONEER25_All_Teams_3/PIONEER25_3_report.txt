@@ -1,0 +1,208 @@
+PIONEER League Schedule Analysis
+========================================
+========================================
+
+Home Game Total Check 
+============================================================
+No violations to report.
+
+
+Home Games Per Month Check 
+============================================================
+Team Name           May       Jun       Jul       Aug       Sept      
+Oakland             6         12        14        9         7         
+California          10        8         17        12        1         
+Boise               6         6         18        11        7         
+Idaho Falls         0         12        14        21        1         
+Ogden               4         11        14        13        6         
+Grand Junction      10        8         12        12        6         
+Glacier             6         18        12        6         6         
+Missoula            0         18        12        18        0         
+Great Falls         10        14        11        13        0         
+Billings            0         18        6         17        7         
+NoCo                4         11        12        20        1         
+Rocky Mountain      4         20        14        10        0         
+
+Weekend Game Total Check 
+============================================================
+No violations to report.
+
+
+Team Requests Check 
+============================================================
+Grand Junction (Team 6) requested to be away during Series 1 which begins on 5/21, but is home.
+
+Grand Junction (Team 6) requested to be away during Series 2 which begins on 5/28, but is home.
+
+Ogden (Team 5) requested to be away during Series 10 which begins on 7/9, but is home.
+
+Ogden (Team 5) requested to be away during Series 13 which begins on 7/30, but is home.
+
+Ogden (Team 5) requested to be away during Series 14 which begins on 8/2, but is home.
+
+Ogden (Team 5) requested to be away during Series 16 which begins on 8/13, but is home.
+
+Glacier (Team 7) requested to be away during Series 16 which begins on 8/13, but is home.
+
+Ogden (Team 5) requested to be away during Series 18 which begins on 8/27, but is home.
+
+Grand Junction (Team 6) requested to be away during Series 20 which begins on 9/3, but is home.
+
+
+Team Requests Check 
+============================================================
+Glacier (Team 7) requested to be away during Series 1 which begins on 5/21, but is home.
+
+
+Off Day on the Road Check 
+============================================================
+No violations to report.
+
+
+Unwanted Trips Check 
+============================================================
+Boise (Team 3) travels from Boise (Team 3) to Rocky Mountain (Team 12) following Series 1 on 5/21, an over 10-hour trip.
+
+Grand Junction (Team 6) travels from Grand Junction (Team 6) to Glacier (Team 7) following Series 2 on 5/28, an over 10-hour trip.
+
+Missoula (Team 8) travels from NoCo (Team 11) to Missoula (Team 8) following Series 2 on 5/28, an over 10-hour trip.
+
+Boise (Team 3) travels from Rocky Mountain (Team 12) to Missoula (Team 8) following Series 2 on 5/28, an over 10-hour trip.
+
+Grand Junction (Team 6) travels from Glacier (Team 7) to Grand Junction (Team 6) following Series 3 on 6/4, an over 10-hour trip.
+
+Oakland (Team 1) travels from Boise (Team 3) to Grand Junction (Team 6) following Series 4 on 6/11, an over 500-mile trip without an off-day.
+
+NoCo (Team 11) travels from NoCo (Team 11) to Billings (Team 10) following Series 4 on 6/11, an over 500-mile trip without an off-day.
+
+Rocky Mountain (Team 12) travels from Glacier (Team 7) to Rocky Mountain (Team 12) following Series 5 on 6/14, an over 10-hour trip.
+
+Great Falls (Team 9) travels from Great Falls (Team 9) to Rocky Mountain (Team 12) following Series 9 on 7/5, an over 10-hour trip.
+
+Great Falls (Team 9) travels from Rocky Mountain (Team 12) to Great Falls (Team 9) following Series 10 on 7/9, an over 10-hour trip.
+
+Rocky Mountain (Team 12) travels from Rocky Mountain (Team 12) to Missoula (Team 8) following Series 11 on 7/16, an over 10-hour trip.
+
+Glacier (Team 7) travels from Glacier (Team 7) to Rocky Mountain (Team 12) following Series 12 on 7/23, an over 10-hour trip.
+
+Rocky Mountain (Team 12) travels from Missoula (Team 8) to Rocky Mountain (Team 12) following Series 12 on 7/23, an over 10-hour trip.
+
+Billings (Team 10) travels from Idaho Falls (Team 4) to NoCo (Team 11) following Series 13 on 7/30, an over 500-mile trip without an off-day.
+
+Glacier (Team 7) travels from Grand Junction (Team 6) to Glacier (Team 7) following Series 15 on 8/6, an over 10-hour trip.
+
+Grand Junction (Team 6) travels from Grand Junction (Team 6) to Billings (Team 10) following Series 17 on 8/20, an over 10-hour trip.
+
+Glacier (Team 7) travels from Idaho Falls (Team 4) to NoCo (Team 11) following Series 18 on 8/27, an over 500-mile trip without an off-day.
+
+Grand Junction (Team 6) travels from Billings (Team 10) to Grand Junction (Team 6) following Series 19 on 8/30, an over 10-hour trip.
+
+Glacier (Team 7) travels from NoCo (Team 11) to Glacier (Team 7) following Series 19 on 8/30, an over 10-hour trip.
+
+NoCo (Team 11) travels from NoCo (Team 11) to Glacier (Team 7) following Series 19 on 8/30, an over 10-hour trip.
+
+Travel Violation Counts:
+    Oakland (Team 1): 1
+    Boise (Team 3): 2
+    Grand Junction (Team 6): 4
+    Glacier (Team 7): 4
+    Missoula (Team 8): 1
+    Great Falls (Team 9): 2
+    Billings (Team 10): 1
+    NoCo (Team 11): 2
+    Rocky Mountain (Team 12): 3
+
+
+Back to Back Series Check 
+============================================================
+No violations to report.
+
+
+3-Window Violation Check 
+============================================================
+Grand Junction (Team 6) has a 3-series roadtrip starting with Series 11 on 7/16.
+
+Oakland (Team 1) has a 3-series roadtrip starting with Series 16 on 8/13.
+
+Missoula (Team 8) has a 3-series homestand starting with Series 16 on 8/13.
+
+NoCo (Team 11) has a 3-series homestand starting with Series 16 on 8/13.
+
+3-Window Violation Counts:
+    Oakland (Team 1): 1
+    Grand Junction (Team 6): 1
+    Missoula (Team 8): 1
+    NoCo (Team 11): 1
+
+
+5-Window Violation Check 
+============================================================
+No violations to report.
+
+
+3-Weekend Violation Check 
+============================================================
+Grand Junction (Team 6) plays an invalid number of home series in a 3-weekend window starting with Series 11 on 7/16.
+
+NoCo (Team 11) plays an invalid number of home series in a 3-weekend window starting with Series 16 on 8/13.
+
+
+Variety of Opponents Check 
+============================================================
+Oakland (Team 1): plays a total of 7 other teams.
+    **Team does not play Idaho Falls (Team 4).**
+    **Team does not play Ogden (Team 5).**
+    **Team does not play Great Falls (Team 9).**
+    **Team does not play Billings (Team 10).**
+California (Team 2): plays a total of 8 other teams.
+    **Team does not play Idaho Falls (Team 4).**
+    **Team does not play Great Falls (Team 9).**
+    **Team does not play Billings (Team 10).**
+Boise (Team 3): plays a total of 9 other teams.
+    **Team does not play Grand Junction (Team 6).**
+    **Team does not play NoCo (Team 11).**
+Idaho Falls (Team 4): plays a total of 8 other teams.
+    **Team does not play Oakland (Team 1).**
+    **Team does not play California (Team 2).**
+    **Team does not play Rocky Mountain (Team 12).**
+Ogden (Team 5): plays a total of 9 other teams.
+    **Team does not play Oakland (Team 1).**
+    **Team does not play Rocky Mountain (Team 12).**
+Grand Junction (Team 6): plays a total of 9 other teams.
+    **Team does not play Boise (Team 3).**
+    **Team does not play Great Falls (Team 9).**
+Glacier (Team 7): plays a total of 11 other teams.
+
+Missoula (Team 8): plays a total of 11 other teams.
+
+Great Falls (Team 9): plays a total of 7 other teams.
+    **Team does not play Oakland (Team 1).**
+    **Team does not play California (Team 2).**
+    **Team does not play Grand Junction (Team 6).**
+    **Team does not play NoCo (Team 11).**
+Billings (Team 10): plays a total of 9 other teams.
+    **Team does not play Oakland (Team 1).**
+    **Team does not play California (Team 2).**
+NoCo (Team 11): plays a total of 9 other teams.
+    **Team does not play Boise (Team 3).**
+    **Team does not play Great Falls (Team 9).**
+Rocky Mountain (Team 12): plays a total of 9 other teams.
+    **Team does not play Idaho Falls (Team 4).**
+    **Team does not play Ogden (Team 5).**
+
+Percent of Games Against Each Division
+============================================================
+Team Name           W         E         
+Oakland             0.45      0.55      
+California          0.65      0.35      
+Boise               0.45      0.55      
+Idaho Falls         0.35      0.65      
+Ogden               0.55      0.45      
+Grand Junction      0.45      0.55      
+Glacier             0.55      0.45      
+Missoula            0.45      0.55      
+Great Falls         0.5       0.5       
+Billings            0.45      0.55      
+NoCo                0.6       0.4       
+Rocky Mountain      0.55      0.45      
+

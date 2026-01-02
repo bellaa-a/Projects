@@ -1,0 +1,68 @@
+html {
+  background-color: black;
+  color: lightgray;
+  font-family: "Courier New", Courier, monospace;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 8rem);
+  margin: 0;
+  padding: 4rem 2rem 4rem 2rem;
+}
+
+#counter {
+  font-size: 18rem;
+  text-align: center;
+}
+
+.control {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+#increment,
+#decrement {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  border: 0.2rem solid lightgray;
+  background-color: transparent;
+  font-size: 4rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: lightgray;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+#increment:hover,
+#decrement:hover {
+  background-color: lightgray;
+  color: black;
+}
+
+#decrement {
+  padding-bottom: 0.5rem;
+}
+
+#increment {
+  padding-top: 0.2rem;
+}
+
+#reset {
+  background-color: transparent;
+  font-size: 3rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: lightgray;
+  border: none;
+  padding-bottom: 0.5rem;
+}

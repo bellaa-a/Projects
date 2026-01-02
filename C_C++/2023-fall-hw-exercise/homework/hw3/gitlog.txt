@@ -1,0 +1,131 @@
+commit f3ac2dace6fe5dd80f34911533d3bfc03a3a48ed
+Author: Bella Lu <xlu62@jh.edu>
+Date:   Tue Sep 26 00:15:42 2023 -0400
+
+    finished
+
+commit 2e93080e7134ff666ef5e3feabace2a93f9929d0
+Author: Bella Lu <xlu62@jh.edu>
+Date:   Mon Sep 25 23:39:59 2023 -0400
+
+    wrote my own tests
+
+commit 4980cb03478ad26e63be56422625ff6084f21ab9
+Author: Bella Lu <xlu62@jh.edu>
+Date:   Mon Sep 25 21:31:58 2023 -0400
+
+    code working, will write more test next
+
+commit 9ad96503d598aa36d28ab2304097e9edecf1ff4c
+Author: Bella Lu <xlu62@jh.edu>
+Date:   Mon Sep 25 20:06:00 2023 -0400
+
+    initial finished code
+
+commit 29df9b82ad63918c73ef0404fc9a9b206783ed0d
+Author: Bella Lu <xlu62@jh.edu>
+Date:   Mon Sep 25 13:47:34 2023 -0400
+
+    finished match
+
+commit cedf6a8169c2fdc7a698abe86cca1ed28035587c
+Author: Bella Lu <xlu62@jh.edu>
+Date:   Sun Sep 24 23:41:06 2023 -0400
+
+    starteed match
+
+commit e7dc361c03bc1d4f2b55e70b5a2674ce46589b6c
+Author: Bella Lu <xlu62@jh.edu>
+Date:   Sun Sep 24 11:47:09 2023 -0400
+
+    started ex11
+
+commit 3b78dc6ae0f872658f8984f9a1cd55bac1fa1804
+Author: Bella Lu <xlu62@jh.edu>
+Date:   Wed Sep 20 15:58:40 2023 -0400
+
+    done ex10
+
+commit 22fa9468347f4ab98f2cac2be7666f5c99aa2830
+Author: Bella Lu <xlu62@jh.edu>
+Date:   Mon Sep 18 13:11:43 2023 -0400
+
+    finished ex09
+
+commit 00470a6b203ed0566f0e0ec5346f90fbd179316e
+Author: Bella Lu <xlu62@jh.edu>
+Date:   Sun Sep 17 15:38:23 2023 -0400
+
+    finished ex08
+
+commit 2cbb84a5060a2d1b84ddbb97248c108ad0729261
+Author: Bella Lu <xlu62@jh.edu>
+Date:   Wed Sep 13 12:45:06 2023 -0400
+
+    ex06 finished
+
+commit e0442e055c4b4153f1dd13fa2ab215feadf32fe5
+Author: Bella Lu <xlu62@jh.edu>
+Date:   Tue Sep 12 15:41:09 2023 -0400
+
+    finished hw1
+
+commit cedf5e1cf42b0730b1bb6f3a304fcef1a45565dd
+Author: Bella Lu <xlu62@jh.edu>
+Date:   Mon Sep 11 12:39:53 2023 -0400
+
+    working version of hw1
+
+commit bf74db4d99cf8f7996cd5ea4071874fa167f2fcf
+Author: Bella Lu <xlu62@jh.edu>
+Date:   Sat Sep 9 21:23:40 2023 -0400
+
+    created hw1
+
+commit a2bd85b864950d9fb082ee3d345321bef9dc3dce
+Author: Bella Lu <xlu62@jh.edu>
+Date:   Sat Sep 9 14:32:30 2023 -0400
+
+    ex05 count3
+
+commit a75d7602db81b06b79e1c25cd5575d3bce6917b2
+Author: Bella Lu <xlu62@jh.edu>
+Date:   Fri Sep 8 18:17:49 2023 -0400
+
+    ex05 count2
+
+commit e5c4ff0f32e6662e69f0a7177629582a6911527a
+Author: Bella Lu <xlu62@jh.edu>
+Date:   Fri Sep 8 13:08:41 2023 -0400
+
+    ex05 count1
+
+commit de3ae7f7088b30e0a5e8938d005a2bf18ba33ea9
+Author: Bella Lu <xlu62@jh.edu>
+Date:   Fri Sep 8 12:01:44 2023 -0400
+
+    updated hw0
+
+commit 2a1571ff00e8b871953e8d9dae803fcfd8210267
+Author: Bella Lu <xlu62@jh.edu>
+Date:   Thu Sep 7 22:39:37 2023 -0400
+
+    simple gpa calculator
+
+commit 7612802c8aaa1fab0d80553a4830040f97641c1c
+Author: Bella Lu <xlu62@jh.edu>
+Date:   Sat Sep 2 13:56:34 2023 -0400
+
+    created hw0
+
+commit d79f3ef5b75d89eea19814637dbf92f20c6af76f
+Author: Bella Lu <xlu62@jh.edu>
+Date:   Fri Sep 1 13:48:39 2023 -0400
+
+    updated README
+
+commit 415401b7c13e46735e15f70cbf3cd77ef7d3f5ba
+Author: Bella Lu <xlu62@jh.edu>
+Date:   Fri Sep 1 13:45:53 2023 -0400
+
+    created README

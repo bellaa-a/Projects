@@ -1,0 +1,21 @@
+TEAM
+Zi Yun Mao zmao16
+Bella Lu xlu62
+Ava Venuti avenuti1
+
+DESIGN
+The main function reads the command line arguments. One is the input file and one is the output png. First, main passes the input file into reader, which deciphers the text and places specified information into plot, bounds, fill, and creates functions with expressions. Then, to generate the image, main calls renderer, which performs the coloring specified by the directions given by the text file (the function and fill color) with functions in the image. Lastly, main writes the output image into the output png. Exceptions are thrown in necessary places, and are caught in reader and renderer, because catching exceptions in main could result in the possibility that parts of the image have already been written, so deallocation can be tricky.
+
+Some major functions include parsing an expression, generating array pixel points for functions, and filling color. The parse function inside the expression parser class is responsible for creating a tree of expressions recursively. Each expression node is designed to have different properties (add, minus, sin, cos, num, pi, multiply, and divide). Through using this parse function, all these properties are being set up and nodes are connected with each other by storing the pointer of children nodes inside a vector of expression nodes (decleared in expression class).
+
+We first use the given x minimum, x maximum, and the width of the image (xmin+(j/w)×(xmax−xmin)) to create a list of y values stored in each function. Then, in the plot, we generate the vectors of one-dimentional pixel points for each function using these y values. We uses the formula (i=h−1−⌊((y−ymin)/(ymax−ymin))×h⌋) to calculate the number of row of the pixel point on the image. If you multiply this value by the width of the image and increase the value by the current colume, the index of the point inside the pixel vector will be generated. This index is being used in the setpixels function inside the image class while rendering. 
+
+To fill the image with specified fill color (in image), we created a for loop nested in another for loop. The outer loop traverses through each column with the inner loop filling in the space between the upper and lower bounds for designated fills in those columns. For the functions fillAbove and fillBelow, the space between the bounds would be the vertical distance from the first or last line of pixels to the generated pixel point. For fillBetween, the upper and lower bounds would be updated in each column depending on which function goes above the other.
+
+When reading the input file, we used the getline function to then store the arguments after the keyword into a string array so that we can check if the number of arguments are correct. But since they were read as strings, we created helper functions to check if they were in correct form (int, float, double) and converted them accordingly to store them in different classes.
+
+COMPLETENESS
+We have successfully passed all public tests and carefully considered all cases where an exception might be thrown.
+
+
+

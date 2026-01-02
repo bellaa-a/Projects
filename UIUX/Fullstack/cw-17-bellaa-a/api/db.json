@@ -1,0 +1,19 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "content": "Do only what only you can do.",
+      "date": "2024-06-24T12:00:00Z"
+    },
+    {
+      "id": 2,
+      "content": "Elegance is not a dispensable luxury but a factor that decides between success and failure.",
+      "date": "2024-06-25T12:00:00Z"
+    },
+    {
+      "content": "asdf",
+      "date": "2024-10-17T00:49:14.786Z",
+      "id": 3
+    }
+  ]
+}

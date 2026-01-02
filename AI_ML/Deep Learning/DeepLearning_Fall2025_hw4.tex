@@ -1,0 +1,147 @@
+\documentclass[a4paper]{article}
+
+%% Language and font encodings
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+
+%% Sets page size and margins
+\usepackage[a4paper,top=3cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+
+%% Useful packages
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage{url}
+% \usepackage[colorlinks=true, allcolors=blue,breaklinks]{hyperref}
+
+\title{Homework 4\\
+	601.482/682 Deep Learning\\
+	Fall 2025}
+\date{September 24, 2025}
+
+\begin{document}
+	\maketitle
+	
+\centerline{\textbf{Due Wednesday, October 8, 2025, 11:59 pm EST}}
+\vspace{0.2cm}
+
+\noindent \textbf{Submission Instructions.} Please submit the following \textbf{two items} to Gradescope (entry code NYY4V7): 
+
+\begin{enumerate}
+    \item Your report (LaTeX generated PDF) named \texttt{homework4-report.pdf}.
+    % 
+    \item A Zip file containing: 
+    % 
+    (1) Your Python Jupyter Notebook (\texttt{homework4-notebook.ipynb}) and (2) an exported PDF of the notebook (with all cell outputs) to \texttt{homework4-notebook.pdf}.
+    
+    * On Google Colab, you may use ``File'' -\> ``Print'' -\> Save as PDF.
+    
+    * On Visual Studio, you may use ``Jupyter: Export to PDF'' in the Command palette.
+\end{enumerate}
+
+	\noindent \textit{Note 1)} This is the first assignment that it is important to be cognizant of model training times. The MLP models you design in Problem 1 likely won't take longer than a few minutes to train at maximum. However, in Problem 2, you will implement two convolutional neural networks \textit{and} experiment with hyperparameters/architectures. For context, our proposed designs required 40-60 seconds per epoch, and we ask you to train your models for at least 50 epochs. We recommend you design and test your model at a small scale (e.g. 5-10 epochs) before scaling up for the final run.\\
+	
+	\noindent \textit{Note 2)} You will be using PyTorch for the majority of this assignment. We \textbf{strongly recommend} using Google Colaboratory (\url{https://colab.research.google.com}) as well, though you are welcome to work locally if desired.
+
+	\begin{enumerate}
+		% Problem 1
+		\item We learned that a two-layer MLP can model polygonal decision boundaries. You are given data sampled from a ``two-pentagons'' decision boundary. Data points within the pentagons are considered ``true'' (labeled as 1) while data points outside are considered ``false'' (labeled as 0).  
+		
+		Please load the data via \texttt{numpy.load()} function and check that you obtain a numpy array with a shape of $(60000, 3)$. The first two columns are coordinates (x, y) and the third column represents the labels. 
+		
+		The vertices of the 2 polygons are (500, 1000), (300, 800), (400, 600), (600, 600), (700, 800), and (500, 600), (100, 400), (300, 200), (700, 200), (900, 400). We have provided some visualization functions in the Jupyter notebook. The decision boundary can be modeled with a total of $2\times 5 + 2 + 1$ neurons with threshold activation functions. 
+	
+		\begin{enumerate}
+			\item We have set up an MLP with threshold activation by analytically obtaining weights that can model the above decision boundary. 
+				\begin{enumerate}
+					\item Implement the ``AND gate'' and ``OR gate'' to predict all points within the 2 polygons as the positive class. Use the \texttt{predict\_output\_v1()} to test your implementations. Attach the visualization to your report. 
+					\item Modify the code in \texttt{predict\_output\_v2()} to predict only the points in polygon 1 as the positive class. Attach the visualization to your report. \emph{Note: You should only need to update the application of the gates themselves.}
+				\end{enumerate}			
+			Note: We reverse-engineered the weights from the known decision boundaries but in the real world, we do not know the decision boundaries. In a more realistic scenario, we would thus need to discover (learn) the decision boundaries from training data which we will explore next. 
+
+			\item Build an MLP using sigmoid activation functions to replace the ``AND/OR'' gates. You are required to use PyTorch for this question and all remaining parts of the assignment. We \textbf{strongly recommend using Google Colaboratory} for ease of debugging and modeling flexibility. Whenever we provide code in subsequent assignments, it will be optimized for this setup.\footnote{\url{https://pytorch.org/}. If you have not programmed with PyTorch before, give yourself some time to go through some online tutorials. There are many on the internet so it is hard to recommend a specific one, it would really depend on your level of comfort. You may also find it helpful to review the PyTorch resources on Piazza (\url{https://piazza.com/jhu/fall2025/cs482682/resources}).} 
+			
+			Model hyperparameters:
+			\begin{enumerate}
+			    \item Use 2 hidden layers, and 1 output layer with binary-cross-entropy loss \footnote{See discussion here https://stackoverflow.com/questions/53628622/loss-function-its-inputs-for-binary-classification-pytorch}
+			    \item Use 10 nodes in the first hidden layer, 2 nodes in the second hidden layer, and 1 output node (binary classification), which mirrors the capacity of the model in 1a)
+			    \item Initialize the weights using Xavier Initialization
+			    \item You may use any combination of batch size, training epochs, and learning rate. (Note that a larger batch size typically corresponds to a larger learning rate)
+			    \item Do not use any regularization for this problem
+			\end{enumerate}
+			
+			Use gradient descent to optimize the parameters. You should expect an average accuracy greater than 90\%. 
+			\textbf{Please use the first $50000$ points as your training set and the remaining $10000$ as your test set. You may also want to normalize (i.e. center and scale) the data before training.} \\
+
+			 TODO: 
+			 \begin{enumerate}
+			 	\item Train your model using 5 random seeds and report the mean and standard deviation of the train and test accuracy at the end of 500 epochs. Attach the plots of training loss and testing accuracy change over epochs.  
+				\item In your report, attach the visualization of the test set prediction (i.e. polygon figure).
+				\item Brief discussion. Are you able to find a solution that performs almost as well as the ``manual" solution in (a)? 
+			\end{enumerate}
+
+			\item Build an MLP with a larger capacity (increase the depth and width). What do you expect to happen to your model's ability to learn the appropriate decision boundaries when you increase the depth? Increase the width? \emph{Note: Since this is a toy dataset, you might not actually observe differences in performance compared to your 1b solution. However, you should be able to reason about expected behavior based on our lecture discussions.} 
+			 	\begin{enumerate}
+					\item Like before, train your model using 5 random seeds and report the mean and standard deviation of the train and test accuracy at the end of 500 epochs.
+					\item Report what depth and width you used. Briefly discuss what you notice about your model performance as you change these architecture decisions. \textit{Hint: Think about our discussions from the lecture regarding model capacity.}
+					\item Attach the plots of training loss and testing accuracy change over epochs. 
+					\item Attach the visualization of the prediction for the test set (i.e. polygon figure).
+				\end{enumerate}
+			\item In part (b) we had fixed the hyperparameter choices, but in part (c) you adjusted those choices for the MLP in terms of depth and width of the network. Would you consider your test results to be valid and generalizable? Please briefly discuss.
+		
+		\end{enumerate}
+		% Problem 2
+		\item In this problem, we will explore convolutional neural networks (CNNs). We will be working with the FashionMNIST dataset.\footnote{The full FashionMNIST dataset can be downloaded from the official website here: \url{https://github.com/zalandoresearch/fashion-mnist}. We provide a starter code for loading and splitting the dataset in the notebook.} This dataset only has a train-test split, therefore we will be using the last 10000 training instances as the validation set.
+		Again, we will use PyTorch\footnote{\url{https://pytorch.org/get-started/locally/}} for this assignment. Because training times can be quite long, you \emph{do not} need to train your model with multiple random seeds --- 1 is enough, but of course feel free to expand if you have time and are confident in your model. You should try to train your models for at least 50 epochs.
+		\begin{enumerate}
+			\item 
+			 Design a small CNN (e.g. 3-4 hidden layers) using the tools we learned in class such as 
+			 \begin{enumerate} 
+			 \item convolution and pooling layers
+			 \item activation functions (other than sigmoid)
+			 \end{enumerate}
+			 
+			 TODO:
+			 \begin{enumerate}
+			 	\item \textbf{Briefly} describe your architecture in your report and explain your design choices (e.g. I used ReLU activation because...)  \textbf{Please design the network architecture by yourself. This is not about performance.} 
+				\item Report the train, validation, and test accuracy of your best model (e.g. if the best model was obtained at epoch 50, report the train, validation, and test accuracy at epoch 50). 
+				\item Attach the plots of training loss and validation accuracy change over epochs.  
+			 \end{enumerate}
+			 	Note: If you achieve more than 85\% accuracy on the test set, move on to the next subproblem.
+			\item Now, try to improve your model's performance by including additional architecture elements. You should implement \emph{at least two} of the following:
+			\begin{enumerate}
+			    \item dropout
+			    \item batch normalization
+			    \item data augmentation
+			    \item different optimizers (other than vanilla stochastic gradient descent)
+			\end{enumerate}
+			Try to improve your accuracy over the model in 2(a). Your new model should perform at least as well as your previous model.\\ 
+			TODO: 
+			\begin{enumerate}
+				\item Describe your new model additions and explain your design choices (e.g. I added dropout because...). 
+				\item Report the training, validation, and test accuracy of your best model. 
+				\item Attach the plots of training loss and validation accuracy change over epochs. 
+			\end{enumerate}
+			\item Search the internet for models that others have built on FashionMNIST. This can be from research papers or even something like Kaggle. Briefly describe one technique or architecture decision which you found interesting (remember to cite your sources). It can be an extension of an existing method, and you don't need to cover the paper's results for that method. As a rough guide, anything from approximately 50-100 words of prose is sufficient.
+		\end{enumerate}
+	\end{enumerate}
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

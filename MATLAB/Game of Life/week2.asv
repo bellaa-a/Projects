@@ -1,0 +1,23 @@
+piHeptomino = [1, 1, 1; 
+               1, 0, 1; 
+               1, 0, 1];
+
+piHeptomino = padarray(piHeptomino, [50, 50])
+
+for i = 1:100
+    piHeptomino = GOL(piHeptomino);
+end
+
+imagesc(piHeptomino)
+colormap(gray)
+
+
+
+%traffic_jam = RLE_decoder('trafficjam.txt');
+
+%for i = 1:23
+    %output = GOL(traffic_jam);
+%end
+
+%imagesc(output)
+%colormap(gray)

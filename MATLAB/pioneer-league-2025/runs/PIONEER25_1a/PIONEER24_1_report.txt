@@ -1,0 +1,105 @@
+PIONEER League Schedule Analysis
+========================================
+========================================
+
+Home Game Total Check 
+============================================================
+No violations to report.
+
+
+Home Games Per Month Check 
+============================================================
+Team Name           May       Jun       Jul       Aug       Sept      
+Oakland             0         9         23        9         7         
+Davis               6         15        15        12        0         
+Boise               4         11        15        17        1         
+Idaho Falls         9         12        8         15        4         
+Ogden               7         17        9         12        3         
+Glacier             3         9         14        16        6         
+Missoula            1         20        11        12        4         
+Great Falls         4         17        12        15        0         
+Billings            9         9         11        15        4         
+Rocky Mountain      7         11        12        12        6         
+
+Weekend Game Total Check 
+============================================================
+No violations to report.
+
+
+Team Requests Check 
+============================================================
+No violations to report.
+
+
+Team Requests Check 
+============================================================
+No violations to report.
+
+
+Off Day on the Road Check 
+============================================================
+No violations to report.
+
+
+Unwanted Trips Check 
+============================================================
+No violations to report.
+
+
+Back to Back Series Check 
+============================================================
+No violations to report.
+
+
+3-Window Violation Check 
+============================================================
+No violations to report.
+
+
+5-Window Violation Check 
+============================================================
+No violations to report.
+
+
+3-Weekend Violation Check 
+============================================================
+No violations to report.
+
+
+Variety of Opponents Check 
+============================================================
+Oakland (Team 1): plays a total of 8 other teams.
+    **Team does not play Missoula (Team 7).**
+Davis (Team 2): plays a total of 9 other teams.
+
+Boise (Team 3): plays a total of 9 other teams.
+
+Idaho Falls (Team 4): plays a total of 9 other teams.
+
+Ogden (Team 5): plays a total of 9 other teams.
+
+Glacier (Team 6): plays a total of 8 other teams.
+    **Team does not play Rocky Mountain (Team 10).**
+Missoula (Team 7): plays a total of 8 other teams.
+    **Team does not play Oakland (Team 1).**
+Great Falls (Team 8): plays a total of 9 other teams.
+
+Billings (Team 9): plays a total of 9 other teams.
+
+Rocky Mountain (Team 10): plays a total of 8 other teams.
+    **Team does not play Glacier (Team 6).**
+
+Percent of Games Against Each Division
+============================================================
+Team Name           W         E         
+Oakland             0.66      0.34      
+Davis               0.63      0.38      
+Boise               0.59      0.41      
+Idaho Falls         0.5       0.5       
+Ogden               0.56      0.44      
+Glacier             0.5       0.5       
+Missoula            0.41      0.59      
+Great Falls         0.5       0.5       
+Billings            0.44      0.56      
+Rocky Mountain      0.22      0.78      
+

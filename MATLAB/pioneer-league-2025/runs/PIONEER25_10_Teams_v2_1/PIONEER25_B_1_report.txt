@@ -1,0 +1,120 @@
+PIONEER League Schedule Analysis
+========================================
+========================================
+
+Home Game Total Check 
+============================================================
+No violations to report.
+
+
+Home Games Per Month Check 
+============================================================
+Team Name           May       Jun       Jul       Aug       Sept      
+Oakland             6         6         18        11        7         
+Boise               10        8         18        11        1         
+Idaho Falls         4         14        14        15        1         
+Ogden               4         14        12        12        6         
+Grand Junction      0         18        14        16        0         
+Glacier             0         18        12        12        6         
+Missoula            0         12        14        15        7         
+Great Falls         10        14        8         16        0         
+Billings            6         12        14        15        1         
+Rocky Mountain Vibes10        14        6         12        6         
+
+Weekend Game Total Check 
+============================================================
+No violations to report.
+
+
+Team Requests Check 
+============================================================
+No violations to report.
+
+
+Team Requests Check 
+============================================================
+Missoula (Team 7) requested to be home during Series  7 which begins on 6/25, but is away.
+
+
+Off Day on the Road Check 
+============================================================
+No violations to report.
+
+
+Unwanted Trips Check 
+============================================================
+Boise (Team 2) travels from Great Falls (Team 8) to Grand Junction (Team 5) following Series 6 on 6/18, an over 10-hour trip.
+
+Rocky Mountain Vibes (Team 10) travels from Great Falls (Team 8) to Rocky Mountain Vibes (Team 10) following Series 10 on 7/9, an over 10-hour trip.
+
+Glacier (Team 6) travels from Glacier (Team 6) to Oakland (Team 1) following Series 11 on 7/16, an over 10-hour trip.
+
+Oakland (Team 1) travels from Oakland (Team 1) to Great Falls (Team 8) following Series 12 on 7/23, an over 10-hour trip.
+
+Rocky Mountain Vibes (Team 10) travels from Rocky Mountain Vibes (Team 10) to Oakland (Team 1) following Series 16 on 8/13, an over 10-hour trip.
+
+Travel Violation Counts:
+    Oakland (Team 1): 1
+    Boise (Team 2): 1
+    Glacier (Team 6): 1
+    Rocky Mountain Vibes (Team 10): 2
+
+
+Back to Back Series Check 
+============================================================
+No violations to report.
+
+
+3-Window Violation Check 
+============================================================
+No violations to report.
+
+
+5-Window Violation Check 
+============================================================
+No violations to report.
+
+
+3-Weekend Violation Check 
+============================================================
+No violations to report.
+
+
+Variety of Opponents Check 
+============================================================
+Oakland (Team 1): plays a total of 9 other teams.
+
+Boise (Team 2): plays a total of 8 other teams.
+    **Team does not play Rocky Mountain Vibes (Team 10).**
+Idaho Falls (Team 3): plays a total of 9 other teams.
+
+Ogden (Team 4): plays a total of 9 other teams.
+
+Grand Junction (Team 5): plays a total of 8 other teams.
+    **Team does not play Great Falls (Team 8).**
+Glacier (Team 6): plays a total of 9 other teams.
+
+Missoula (Team 7): plays a total of 8 other teams.
+    **Team does not play Rocky Mountain Vibes (Team 10).**
+Great Falls (Team 8): plays a total of 8 other teams.
+    **Team does not play Grand Junction (Team 5).**
+Billings (Team 9): plays a total of 9 other teams.
+
+Rocky Mountain Vibes (Team 10): plays a total of 7 other teams.
+    **Team does not play Boise (Team 2).**
+    **Team does not play Missoula (Team 7).**
+
+Percent of Games Against Each Division
+============================================================
+Team Name           W         E         
+Oakland             0.35      0.65      
+Boise               0.45      0.55      
+Idaho Falls         0.45      0.55      
+Ogden               0.45      0.55      
+Grand Junction      0.45      0.55      
+Glacier             0.35      0.65      
+Missoula            0.25      0.75      
+Great Falls         0.3       0.7       
+Billings            0.5       0.5       
+Rocky Mountain Vibes0.45      0.55      
+

@@ -1,0 +1,24 @@
+%I chose this pattern because it is the first known finite pattern with
+%unbounded growth, which was really cool to think about. Also, the pattern
+%shows how the blocks remain stable and how the "queen bee shuttles" act.
+%The bullet-like 
+
+gliding_gun = RLE_decoder('GosperGlidingGun.txt');
+gliding_gun = padarray(gliding_gun, [50, 50]);
+
+%Run 600 generations
+for i = 1:600
+    %Find what each generation looks like
+    gliding_gun = GOL(gliding_gun);
+    lsd = imagesc(gliding_gun);
+    colormap(gray)
+    drawnow;
+    %Get every frame
+    frame(i) = getframe(gcf);
+end
+
+v = VideoWriter("newfile.avi");
+v.FrameRate = 60;
+open(v);
+writeVideo(v,frame);
+close(v);

@@ -1,0 +1,5 @@
+Bella Lu xlu62
+
+All file handling and error are in the main function in hw5.cpp. Main would read inputs from the file, then pass the arguments necessary into the different command functions. I wrote a function for each 'a', 'd', 'c', and 'f' commands, which were all void functions because they only needed to print the output. I also wrote helper functions. Print_trigram took in a vector of tuples and printed its contents in the form specified. The boolean function greater_than returns whether or not the first parameter was greater than the second, and the boolean function larger_count returns whether the frequency of the first parameter is greater than the second. Both boolean functions are used for the third optional parameter in the sort algorithm. 
+
+Instead of using a map, I put the frequency of each trigram as a fourth argument in each tuple. In handle_c_command, I first sorted trigram_list by descending frequency, then I sorted the ties by ASCII value in chunks, grouped by their frequency value. 

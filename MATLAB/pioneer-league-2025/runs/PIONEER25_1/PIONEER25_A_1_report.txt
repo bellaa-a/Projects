@@ -1,0 +1,126 @@
+PIONEER League Schedule Analysis
+========================================
+========================================
+
+Home Game Total Check 
+============================================================
+No violations to report.
+
+
+Home Games Per Month Check 
+============================================================
+Team Name           May       Jun       Jul       Aug       Sept      
+Oakland             10        14        6         17        1         
+Yoho                10        8         8         16        6         
+Boise               10        8         18        11        1         
+Idaho Falls         0         12        20        15        1         
+Ogden               4         14        12        12        6         
+Grand Junction      0         18        14        16        0         
+Glacier             0         15        14        13        6         
+Missoula            0         18        12        11        7         
+Great Falls         6         12        14        10        6         
+Billings            10        11        12        14        1         
+
+Weekend Game Total Check 
+============================================================
+No violations to report.
+
+
+Team Requests Check 
+============================================================
+No violations to report.
+
+
+Team Requests Check 
+============================================================
+No violations to report.
+
+
+Off Day on the Road Check 
+============================================================
+No violations to report.
+
+
+Unwanted Trips Check 
+============================================================
+Glacier (Team 7) travels from Yoho (Team 2) to Glacier (Team 7) following Series 2 on 5/28, an over 10-hour trip.
+
+Missoula (Team 8) travels from Oakland (Team 1) to Missoula (Team 8) following Series 2 on 5/28, an over 10-hour trip.
+
+Oakland (Team 1) travels from Oakland (Team 1) to Billings (Team 10) following Series 5 on 6/14, an over 10-hour trip.
+
+Oakland (Team 1) travels from Billings (Team 10) to Oakland (Team 1) following Series 6 on 6/18, an over 10-hour trip.
+
+Yoho (Team 2) travels from Great Falls (Team 9) to Oakland (Team 1) following Series 6 on 6/18, an over 10-hour trip.
+
+Oakland (Team 1) travels from Great Falls (Team 9) to Oakland (Team 1) following Series 11 on 7/16, an over 10-hour trip.
+
+Yoho (Team 2) travels from Yoho (Team 2) to Glacier (Team 7) following Series 16 on 8/13, an over 10-hour trip.
+
+Great Falls (Team 9) travels from Great Falls (Team 9) to Grand Junction (Team 6) following Series 16 on 8/13, an over 10-hour trip.
+
+Travel Violation Counts:
+    Oakland (Team 1): 3
+    Yoho (Team 2): 2
+    Glacier (Team 7): 1
+    Missoula (Team 8): 1
+    Great Falls (Team 9): 1
+
+
+Back to Back Series Check 
+============================================================
+No violations to report.
+
+
+3-Window Violation Check 
+============================================================
+No violations to report.
+
+
+5-Window Violation Check 
+============================================================
+No violations to report.
+
+
+3-Weekend Violation Check 
+============================================================
+No violations to report.
+
+
+Variety of Opponents Check 
+============================================================
+Oakland (Team 1): plays a total of 9 other teams.
+
+Yoho (Team 2): plays a total of 9 other teams.
+
+Boise (Team 3): plays a total of 9 other teams.
+
+Idaho Falls (Team 4): plays a total of 9 other teams.
+
+Ogden (Team 5): plays a total of 9 other teams.
+
+Grand Junction (Team 6): plays a total of 8 other teams.
+    **Team does not play Missoula (Team 8).**
+Glacier (Team 7): plays a total of 9 other teams.
+
+Missoula (Team 8): plays a total of 8 other teams.
+    **Team does not play Grand Junction (Team 6).**
+Great Falls (Team 9): plays a total of 9 other teams.
+
+Billings (Team 10): plays a total of 9 other teams.
+
+
+Percent of Games Against Each Division
+============================================================
+Team Name           W         E         
+Oakland             0.55      0.45      
+Yoho                0.5       0.5       
+Boise               0.5       0.5       
+Idaho Falls         0.4       0.6       
+Ogden               0.5       0.5       
+Grand Junction      0.55      0.45      
+Glacier             0.3       0.7       
+Missoula            0.25      0.75      
+Great Falls         0.2       0.8       
+Billings            0.25      0.75      
+

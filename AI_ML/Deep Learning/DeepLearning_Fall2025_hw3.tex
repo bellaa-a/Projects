@@ -1,0 +1,105 @@
+\documentclass[a4paper]{article}
+
+%% Language and font encodings
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+
+%% Sets page size and margins
+\usepackage[a4paper,top=3cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+
+%% Useful packages
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{mathrsfs}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+% \usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\date{September 17, 2024}
+
+\title{Homework 3\\
+	601.482/682 Deep Learning\\
+    Fall 2025}
+
+\begin{document}
+\maketitle
+
+\begin{center}
+	\textbf{Due 11:59pm EST on September 24, 2025 \\
+		    Please type answers inline using this LaTeX file\\
+			Submit PDF to Gradescope (Entry Code: VWJRB3)}
+\end{center}
+
+\noindent \textit{Important:} Please use the natural logarithm (base $e$) for all logarithm calculations ($\log$) below. Please show each step of your calculations; points will be deducted if only final results are present.
+
+\begin{enumerate}
+	%%%% Problem 1
+	\item We have presented a matrix back propagation example in class. In this exercise, you will follow the same logic to derive $\frac{\partial L}{\partial X} = W^T\frac{\partial L}{\partial Y}$. 
+	\begin{enumerate}
+		\item Please derive $\frac{\partial L}{\partial W}=\frac{\partial L}{\partial Y}X^T$ (please consider the \textbf{general case} and show each step of your computation).
+		\item Suppose we leverage the $L_2$ loss (also know as \textit{Squared Error Loss}) for a linear regression model $Y=WX$. Given the following initialization of $W$ and $X$, please calculate the updated $W$ after one iteration. (step size = 0.1)
+		\begin{align*}
+		W = \begin{pmatrix}
+		0.3 & 0.5\\
+		-0.2 & 0.4
+		\end{pmatrix},
+		X = \begin{pmatrix}
+		\mathbf{x_1}, \mathbf{x_2}
+		\end{pmatrix} =
+		\begin{pmatrix}
+		0 & 2\\
+		3 & 1
+		\end{pmatrix},
+		\hat{Y} = \begin{pmatrix}
+		\mathbf{\hat{y_1}}, \mathbf{\hat{y_2}}
+		\end{pmatrix} = 
+		\begin{pmatrix}
+		0.5 & 1\\
+		1 & -1.5
+		\end{pmatrix}.
+		\end{align*}
+		\textit{Hint:} $L_2$ loss is defined by $L_2(Y, \hat{Y})=(y_{11}-\hat{y_{11}})^2+(y_{12}-\hat{y_{12}})^2+(y_{21}-\hat{y_{21}})^2+(y_{22}-\hat{y_{22}})^2$, where $\hat{Y}$ is the ground truth, and the model output $Y=WX$.
+	\end{enumerate}
+
+	%%%%%%% Problem 2
+	\item In this exercise, we will explore how vanishing and exploding gradients affect the learning process. Consider a simple 3-layer network with 1-dimensional data $x \in \mathbb{R}$, prediction $y \in [0, 1]$, true label $\hat{y} \in \{0, 1\}$, and weights $w_1, w_2, w_3 \in \mathbb{R}$.
+    Weights are initialized randomly from Standard Gaussian i.e., $w_1, w_2, w_3\sim \mathcal{N}(0, 1)$. 
+    We use the sigmoid activation function $\sigma$ between all layers.
+    First, consider a classification task with the cross entropy loss function $L(y, \hat{y}) = -(\hat{y} \log(y) + (1-\hat{y}) \log(1-y))$. 
+    Formally, the network can be represented as: $y = \sigma(w_3 \cdot \sigma(w_2 \cdot \sigma(w_1 \cdot x)))$. 
+    Note that for this problem, we exclude bias red for simplicity; but in a general case, you should always consider the bias terms. \textit{Hint:} Sigmoid is defined by $\sigma(x)= \frac{1}{1 + e^{-x}}$.
+	\begin{enumerate}
+		\item Compute the derivative for a sigmoid function $\sigma$. What are the maximum extrema and minimum extrema of this derivative, and when are they reached? 
+		\item Consider a random initialization: $w_1 = 0.25, w_2 = -0.11, w_3 = 0.78$, and one specific data sample $(x = 0.63, \hat{y} = 1)$. Apply back propagation to compute the gradients for each weight. What do you notice about the magnitude?
+	\end{enumerate}
+	
+	Now, we switch to a regression task while keeping the same network structure. We remove the final sigmoid activation, so our new network turns to be $y = w_3 \cdot \sigma(w_2 \cdot \sigma(w_1 \cdot x))$, where predictions $y \in \mathbb{R}$ and targets $\hat{y} \in \mathbb{R}$. 
+    We use the $L_2$ loss function to substitute the cross entropy, i.e. $L(y, \hat{y}) = (\hat{y}-y)^2$. 
+	
+	\begin{enumerate}[resume]
+		\item Derive the gradient of the loss function with respect to the weights $(w_1, w_2, w_3)$.
+		\item Consider again the initialization of $w_1 = 0.25, w_2 = -0.11, w_3 = 0.78$, and data sample $(x = 0.63, \hat{y} = 128)$. Apply back propagation to compute the gradients for each weight. What do you notice about the magnitude?
+	\end{enumerate}
+	
+	
+	
+\end{enumerate}
+	
+	
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
