@@ -10,6 +10,13 @@ Welcome to my projects repository! This collection showcases my work in **AI/ML,
 - [Algorithms](#algorithms)
 - [C / C++ Projects](#c--c-projects)
 - [Computer Systems](#computer-systems)
+- [Data Science](#data-science)
+- [Hackathon Project](#hackathon-project)
+- [Data Structures (Java)](#data-structures-java)
+- [MATLAB Projects](#matlab-projects)
+- [UI/UX & Fullstack](#uiux--fullstack)
+- [Deepmreye (Brain Sciences Lab Project)](#deepmreye-brain-sciences-lab-project)
+
 
 ---
 
@@ -78,3 +85,79 @@ Projects demonstrate foundational and applied neural network techniques:
   - Critical sections scoped to single mutexes to avoid cyclic locking and guarantee thread safety.
 
 **Skills Used:** C++, Assembly, Multithreading, Synchronization, Unit Testing, Performance Optimization
+
+---
+
+## Data Science
+Projects focused on statistical modeling, reinforcement learning, and video analysis.
+
+**1. Multi-Armed Bandits**  
+- Implemented standard algorithms to solve the Multi-Armed Bandits problem:  
+  - epsilon-Greedy, Softmax (Boltzmann), UCB1, UCB2, Exp3, Thompson Sampling  
+- Developed a Monte Carlo-based testing framework for algorithm evaluation.  
+- Implemented in **Python**, **Ruby**, and **R** (R code for visualization and analysis).
+
+**2. Spectral Action Segmentation**  
+- Clustered video frames into distinct human actions.  
+- Workflow involved preprocessing, feature extraction, frame cropping, and clustering using Python.  
+- Produced actionable visualizations and analysis of action segments.
+
+**Skills Used:** Python, R, Ruby, Monte Carlo Simulations, Video Processing, Clustering, Data Visualization
+
+---
+
+## Hackathon Project
+**HoldSteady – Surgical Hand Stability Monitoring**  
+- Motivation: Reduce errors caused by surgeon fatigue during long surgeries.  
+- Implementation:  
+  - Wristbands and an app track hand shakiness using **computer vision** and **inertial sensors**.  
+  - Buddy system alerts the nurse only when hands exceed shakiness thresholds.  
+- Post-surgery analysis tracks variance over time and identifies periods of high shakiness, aiding schedule optimization.
+
+**Skills Used:** Python, Computer Vision, Sensor Integration, Real-Time Data Analysis, UX/UI Design
+
+---
+
+## Data Structures (Java)
+- Implemented core data structures from scratch:  
+  - Index Lists, Heaps, Linked Arrays, Linked Sets  
+  - Trees: Binary Trees, Binary Search Trees, AVL Trees, and more  
+- Focused on efficiency, correctness, and practical applications in algorithms.
+
+**Skills Used:** Java, Data Structures, Algorithms, Object-Oriented Programming
+
+---
+
+## MATLAB Projects
+**1. Game of Life**  
+- Simulated Conway’s Game of Life and generated movies from evolving patterns using `imagesc()` and `colormap(gray)`.
+
+**2. Gurobi Optimization (Linear Programming)**  
+- Solved complex scheduling problems with constraints for sports teams.  
+- Constraints included: home/away games, travel distances, consecutive game limits, holiday schedules, and hard constraints for fairness and logistics.
+
+**Skills Used:** MATLAB, Linear Programming, Optimization, Simulation
+
+---
+
+## UI/UX & Fullstack
+**Posts – Simplified Social Media Platform**  
+- Minimalistic Twitter-like clone for educational purposes.  
+- Backend (**API**) in Node.js / pnpm; Frontend (**Web App**) using modern JavaScript frameworks.  
+- Features: Database setup, seeding, API calls, and local deployment.
+
+**Local Setup:**  
+1. Clone repository  
+2. Navigate to `api/` → install dependencies → create database → seed → run server  
+3. Navigate to `web/` → add `.env` → install dependencies → run dev server  
+
+**Skills Used:** Fullstack Development, JavaScript, Node.js, pnpm, Database Management, Web Deployment, UI/UX
+
+---
+
+## Deepmreye (Brain Sciences Lab Project)
+- Goal: Predict participant gaze from fMRI scans using Python.  
+- Focused on neuroscience data preprocessing, modeling, and predictive analysis.
+
+**Skills Used:** Python, fMRI Analysis, Data Modeling, Predictive Analytics, Neuroscience Research
+
