@@ -5,6 +5,7 @@ Welcome to my projects repository! This collection showcases my work in **AI/ML,
 ---
 
 ## Table of Contents
+- [Game Development](#game-development)
 - [AI & Machine Learning](#ai--machine-learning)
 - [Deep Learning](#deep-learning)
 - [Algorithms](#algorithms)
@@ -17,6 +18,29 @@ Welcome to my projects repository! This collection showcases my work in **AI/ML,
 - [UI/UX & Fullstack](#uiux--fullstack)
 - [Deepmreye (Brain Sciences Lab Project)](#deepmreye-brain-sciences-lab-project)
 
+---
+## Game Development
+
+**Marble Run – Physics-Based Puzzle Game (Godot)**
+
+An original puzzle game developed in the Godot Engine where players design courses by strategically placing and rotating blocks to guide a marble to its goal. The project combines physics simulation, puzzle design, multiplayer networking, and custom game systems, and is being prepared for release on Steam.
+
+### Key Features
+- Physics-based gameplay using rigid body simulation and custom interactions.
+- Level editor with draggable, rotatable, and snap-to-grid blocks.
+- Local and online multiplayer with synchronized gameplay using Steam networking.
+- Strategic drafting and building phases inspired by competitive board games.
+- Custom shaders, animations, audio systems, and polished UI/UX.
+- Save systems, settings menus, scene transitions, and progression across multiple worlds with unique mechanics.
+
+### Technical Highlights
+- Designed a modular architecture in Godot using GDScript and reusable scene components.
+- Implemented multiplayer synchronization using RPCs, authority management, and state replication.
+- Developed custom gameplay mechanics including gravity switching, connected blocks, timed objectives, lives, and replay systems.
+- Integrated Steamworks for lobby creation, matchmaking, and multiplayer functionality.
+- Optimized gameplay systems through extensive debugging, testing, and performance improvements.
+
+**Skills Used:** Godot, GDScript, Game Development, Multiplayer Networking, Steamworks API, Physics Simulation, UI/UX Design, Software Architecture, State Synchronization, Debugging
 
 ---
 
