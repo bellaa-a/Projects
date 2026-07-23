@@ -1,0 +1,83 @@
+[gd_scene load_steps=5 format=3 uid="uid://gqh6awmbt076"]
+
+[ext_resource type="Script" uid="uid://cda6h2w0xnwa7" path="res://Scripts/rooms.gd" id="1_1gecx"]
+[ext_resource type="PackedScene" uid="uid://b5bu36pmf8anp" path="res://Scenes/boarder.tscn" id="2_i8ier"]
+[ext_resource type="PackedScene" uid="uid://d1mq735g0sp7l" path="res://Scenes/globals.tscn" id="3_ohuli"]
+[ext_resource type="AudioStream" uid="uid://md61jcp2w41t" path="res://Audio/click.ogg" id="4_i8ier"]
+
+[node name="Rooms" type="Node2D"]
+script = ExtResource("1_1gecx")
+
+[node name="Boarder" parent="." instance=ExtResource("2_i8ier")]
+
+[node name="Label" type="Label" parent="."]
+offset_left = -205.0
+offset_top = -129.0
+offset_right = 205.0
+offset_bottom = -69.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 50
+text = "Two Player Versus"
+
+[node name="Globals" parent="." instance=ExtResource("3_ohuli")]
+
+[node name="Host" type="Button" parent="."]
+offset_left = -224.0
+offset_top = 46.0
+offset_right = -155.0
+offset_bottom = 82.0
+theme_override_font_sizes/font_size = 30
+text = "Host"
+flat = true
+
+[node name="Join" type="Button" parent="."]
+offset_left = 158.0
+offset_top = 46.0
+offset_right = 223.0
+offset_bottom = 82.0
+theme_override_font_sizes/font_size = 30
+text = "Join"
+flat = true
+
+[node name="LobbyIDInput" type="LineEdit" parent="."]
+offset_left = 116.0
+offset_top = -8.0
+offset_right = 259.0
+offset_bottom = 20.0
+placeholder_text = "Enter Game ID"
+
+[node name="OptionButton" type="OptionButton" parent="."]
+offset_left = -254.0
+offset_top = -9.0
+offset_right = -114.0
+offset_bottom = 19.0
+selected = 0
+item_count = 3
+popup/item_0/text = "Novice (slow)"
+popup/item_0/id = 0
+popup/item_1/text = "Intermediate"
+popup/item_1/id = 1
+popup/item_2/text = "Expert (fast)"
+popup/item_2/id = 2
+
+[node name="Error" type="Label" parent="."]
+offset_left = 116.0
+offset_top = 18.0
+offset_right = 259.0
+offset_bottom = 38.0
+theme_override_colors/font_color = Color(1, 0.1254902, 0.09411765, 1)
+
+[node name="Confirm" type="Label" parent="."]
+offset_left = 116.0
+offset_top = 18.0
+offset_right = 259.0
+offset_bottom = 38.0
+theme_override_colors/font_color = Color(0, 0.839686, 0.29896933, 1)
+
+[node name="Click" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("4_i8ier")
+
+[connection signal="pressed" from="Host" to="." method="_on_host_pressed"]
+[connection signal="pressed" from="Join" to="." method="_on_join_pressed"]
+[connection signal="text_submitted" from="LobbyIDInput" to="." method="_on_lobby_id_input_text_submitted"]
+[connection signal="item_selected" from="OptionButton" to="." method="_on_option_button_item_selected"]
