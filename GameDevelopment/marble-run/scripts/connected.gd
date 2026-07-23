@@ -1,0 +1,20 @@
+extends Node2D
+
+
+@onready var player1 = $Player1
+@onready var player2 = $Player2
+var music_bus := AudioServer.get_bus_index("Music")
+
+func _ready():
+	AudioServer.set_bus_mute(music_bus, true)
+	player1.play()
+	player2.play()
+	$Connected.play()
+	var id1 = Steam.getLobbyMemberByIndex(Multiplayer.lobby_id, 0)
+	$Username1.text = Steam.getFriendPersonaName(id1)
+	var id2 = Steam.getLobbyMemberByIndex(Multiplayer.lobby_id, 1)
+	$Username2.text = Steam.getFriendPersonaName(id2)
+	
+	await get_tree().create_timer(4).timeout
+	transition.fade_to_scene("res://Scenes/draft_stage.tscn")
+	

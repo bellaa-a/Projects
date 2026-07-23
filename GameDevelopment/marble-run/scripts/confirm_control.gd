@@ -1,0 +1,13 @@
+extends Control
+
+
+signal confirmed
+signal cancelled
+
+func _on_yes_pressed() -> void:
+	confirmed.emit()
+	Multiplayer.player_finished_stage.rpc(true)
+
+
+func _on_no_pressed() -> void:
+	cancelled.emit()
