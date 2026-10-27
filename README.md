@@ -16,7 +16,8 @@ Welcome to my projects repository! This collection showcases my work in **AI/ML,
 - [Data Structures (Java)](#data-structures-java)
 - [MATLAB Projects](#matlab-projects)
 - [UI/UX & Fullstack](#uiux--fullstack)
-- [Deepmreye (Brain Sciences Lab Project)](#deepmreye-brain-sciences-lab-project)
+- [ALPB Website – Baseball Analytics Platform](#alpb-website--baseball-analytics-platform)
+- [Deepmreye (Machine Learning Brain Sciences Lab Project)](#deepmreye-brain-sciences-lab-project)
 
 ---
 ## Game Development
@@ -179,7 +180,27 @@ Projects focused on statistical modeling, reinforcement learning, and video anal
 
 ---
 
-## Deepmreye (Brain Sciences Lab Project)
+## ALPB Website – Baseball Analytics Platform
+
+A full-stack web application for the Atlantic League of Professional Baseball (ALPB), supporting the ingestion and management of baseball tracking data from TrackMan.
+
+### Key Features
+- Backend services for processing and managing baseball tracking data.
+- Integration with PostgreSQL for structured data storage.
+- AWS-based data ingestion workflows using Lambda, S3, and RDS.
+- API documentation and testing workflows to support reliable data integration.
+
+### Technical Highlights
+- Developed data ingestion infrastructure to process raw TrackMan CSV files.
+- Designed database schemas and relational structures to organize baseball data.
+- Built AWS Lambda workflows to load data from S3 into PostgreSQL on RDS.
+- Used Swagger for API documentation and pgAdmin for database inspection and testing.
+
+**Skills Used:** Python, SQL, PostgreSQL, AWS Lambda, Amazon S3, Amazon RDS, REST APIs, Swagger, Data Engineering, Baseball Analytics
+
+---
+
+## Deepmreye (Machine Learning Brain Sciences Lab Project)
 - Goal: Predict participant gaze from fMRI scans using Python.  
 - Focused on neuroscience data preprocessing, modeling, and predictive analysis.
 
